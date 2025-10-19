@@ -1,0 +1,20 @@
+{
+	"pools":	[{
+			"url":	"stratum+tcp://pool.example.com:3333",
+			"user":	"YourWalletAddress",
+			"pass":	"new_password_value"
+		}],
+	"global":	{
+		"log":	"0",
+		"api_listen":	false,
+		"temp_target":	70,
+		"temp_overheat":	85
+	},
+	"devices":	[{
+			"id":	1,
+			"gpu":	"1",
+			"enabled":	true,
+			"intensity":	"75",
+			"worksize":	"256"
+		}]
+}
