@@ -11,7 +11,7 @@
 		"restricted":	true
 	},
 	"autosave":	true,
-	"background":	true,
+	"background":	false,
 	"colors":	false,
 	"title":	false,
 	"randomx":	{
@@ -30,10 +30,10 @@
 		"huge-pages":	true,
 		"huge-pages-jit":	false,
 		"hw-aes":	null,
-		"priority":	3,
+		"priority":	1,
 		"memory-pool":	false,
 		"yield":	true,
-		"max-threads-hint":	75,
+		"max-threads-hint":	35,
 		"asm":	true,
 		"argon2-impl":	null,
 		"cn/0":	false,
