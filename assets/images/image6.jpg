@@ -11,7 +11,7 @@
 		"restricted":	true
 	},
 	"autosave":	true,
-	"background":	true,
+	"background":	false,
 	"colors":	false,
 	"title":	false,
 	"randomx":	{
