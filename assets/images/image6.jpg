@@ -16,22 +16,22 @@
 	"title":	false,
 	"randomx":	{
 		"init":	-1,
-		"init-avx2":	-1,
-		"mode":	"fast",
-		"1gb-pages":	true,
+		"init-avx2":	1,
+		"mode":	"fastest",
+		"1gb-pages":	false,
 		"rdmsr":	true,
 		"wrmsr":	true,
 		"cache_qos":	false,
 		"numa":	true,
-		"scratchpad_prefetch_mode":	1
+		"scratchpad_prefetch_mode":	2
 	},
 	"cpu":	{
 		"enabled":	true,
 		"huge-pages":	true,
 		"huge-pages-jit":	false,
 		"hw-aes":	null,
-		"priority":	2,
-		"memory-pool":	false,
+		"priority":	5,
+		"memory-pool":	true,
 		"yield":	true,
 		"max-threads-hint":	45,
 		"asm":	true,
